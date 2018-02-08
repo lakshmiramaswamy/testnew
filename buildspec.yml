@@ -9,7 +9,6 @@ phases:
       - echo 'helloworld'
 artifacts:
   files:
-    - appspec.yml
     - target/kk.jar
   discard-paths: yes
  
