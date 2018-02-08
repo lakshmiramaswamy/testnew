@@ -9,5 +9,7 @@ phases:
       - echo 'helloworld'
   
 artifacts:
- files:
-   - arn:aws:s3:::lakshmi21/messageUtil-1.0.jar
+  files:
+    - '**/*'
+  base-directory: 'output'
+  discard-paths: yes
