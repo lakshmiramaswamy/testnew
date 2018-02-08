@@ -9,6 +9,6 @@ phases:
       - echo 'helloworld'
 artifacts:
   files:
-    - 'target/kk.jar'
+    - target/kk.jar
   discard-paths: yes
  
