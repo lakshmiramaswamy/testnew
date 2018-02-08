@@ -8,8 +8,4 @@ phases:
     commands:
       - echo 'helloworld'
 
-artifacts:
-  files:
-    - lakshmi21
-    - lak.jar
   discard-paths: yes
