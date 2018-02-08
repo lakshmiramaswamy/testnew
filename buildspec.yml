@@ -2,17 +2,14 @@ version: 0.2
 phases:
   install:
     commands:
-      - sudo apt-get update 
-      - sudo apt-get install rake -y 
-      - sudo apt-get install gem -y
-      - sudo gem install haml
+      - echo 'hello world'
 
   build:
     commands:
-      - rake
+      - echo 'helloworld;
 
 artifacts:
   files:
-    - '**/*'
-    - appspec.yml
+    - lakshmi21
+    - lak.jar
   discard-paths: yes
