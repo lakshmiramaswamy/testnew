@@ -1,0 +1,18 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      - sudo apt-get update 
+      - sudo apt-get install rake -y 
+      - sudo apt-get install gem -y
+      - sudo gem install haml
+
+  build:
+    commands:
+      - rake
+
+artifacts:
+  files:
+    - '**/*'
+    - appspec.yml
+  discard-paths: yes
