@@ -7,4 +7,9 @@ phases:
   build:
     commands:
       - echo 'helloworld'
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'output'
+  discard-paths: yes
  
