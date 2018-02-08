@@ -10,6 +10,6 @@ phases:
   
 artifacts:
   files:
-    - '**/*'
+    - 'arn:aws:s3:::pipeline21'
   base-directory: 'output'
   discard-paths: yes
