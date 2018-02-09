@@ -10,5 +10,5 @@ phases:
 artifacts:
   files:
     - target/lak.jar
-  discard-paths: yes
+  
  
